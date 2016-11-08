@@ -1,17 +1,21 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
+var eslint = require('gulp-eslint');
+var rollup = require('rollup').rollup;
+var rollupBabel = require('rollup-plugin-babel');
+var nodeResolve = require('rollup-plugin-node-resolve');
+var commonjs = require('rollup-plugin-commonjs');
 var less = require('gulp-less');
 var fileinclude = require('gulp-file-include');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var sourcemaps = require('gulp-sourcemaps');
+var replace = require('rollup-plugin-replace');
 var connect = require('gulp-connect');
 var npmcss = require('npm-css');
 
-
 var paths = {
 	html: ['*.html', 'views/*.html'],
-	styles: ['stylesheets/*.less', 'stylesheets/*.css'],
-	scripts: ['node_modules/jquery/dist/jquery.min.js', 'scripts/*.js']
+	styles: ['components/**/*.less'],
+	scripts: ['components/*.js']
 };
 
 gulp.task('connect', function() {
@@ -36,27 +40,37 @@ gulp.task('html', function () {
 });
 
 gulp.task('build-less', function(){
-	gulp.src('stylesheets/aafes-global.less')
-		.pipe(less())
-		.pipe(gulp.dest('app/stylesheets'))
-		.pipe(connect.reload());
-		
-	return gulp.src('stylesheets/global.less')
+	return gulp.src(paths.styles)
 		.pipe(less())
 		.pipe(gulp.dest('app/stylesheets'))
 		.pipe(connect.reload());
 });
 
 gulp.task('scripts', function() {
-	// Minify and copy all JavaScript (except vendor scripts)
-	// with sourcemaps all the way down
-	return gulp.src(paths.scripts)
-		.pipe(sourcemaps.init())
-			.pipe(uglify())
-			.pipe(concat('all.min.js'))
-		.pipe(sourcemaps.write())
-		.pipe(gulp.dest('app/scripts'))
-		.pipe(connect.reload());
+	return rollup({
+		entry: "components/app.js",
+		plugins: [
+			replace({
+				'process.env.NODE_ENV': JSON.stringify( 'production' )
+			}),
+			nodeResolve({
+				jsnext: true,
+				browser: true
+			}),
+			commonjs(),
+			rollupBabel({
+				exclude: 'node_modules/**',
+				presets: ['es2015-rollup'],
+			}),
+		]	
+	}).then(function(bundle) {
+		return bundle.write({
+      format: 'iife',
+      dest: 'app/scripts/main.js'
+    });
+	}).then(function() {
+		return connect.reload()
+	});
 });
 
 // Rerun the task when a file changes
@@ -66,5 +80,7 @@ gulp.task('watch', function() {
 	gulp.watch(paths.scripts, ['scripts']);
 });
 
+gulp.task('build', ['fileinclude', 'build-less', 'scripts']);
+
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['fileinclude', 'connect', 'watch', 'build-less', 'scripts']);
+gulp.task('default', ['fileinclude', 'connect', 'build-less', 'scripts', 'watch']);
