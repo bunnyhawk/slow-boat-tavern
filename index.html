@@ -8,9 +8,9 @@
 </head>
 <body>
 	<div class="wrap">
-		<header>
-			<div>
-				<img class="logo" src="/images/badge.png" alt="Slow Boat Tavern" />
+		<header class="header">
+			<div class="header_container">
+				<img class="header_logo" src="/images/badge.png" alt="Slow Boat Tavern" />
 				<h1>Slow Boat Tavern</h1>
 				<address>
 					5701 Rainier Ave S Ste D<br>
@@ -18,22 +18,22 @@
 				</address>
 			</div>
 		</header>
-		<section id="list"></section>
-		<section class="feed">
-			<ul>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
-				<li><img src="/images/placeholder.png" alt="alt text" /></li>
+		<section id="list" class="beerlist"></section>
+		<section class="imageFeed">
+			<ul class="imageFeed_list">
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
+				<li class="imageFeed_item"><img src="/images/placeholder.png" alt="alt text" /></li>
 			</ul>
 		</section>
-		<section id="map"></section>
+		<section id="map" class="map"></section>
 	</div>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqEm9PyBfyLhlcHBp_lHty4XmLo_scbfI&callback=googleMap.init"
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqEm9PyBfyLhlcHBp_lHty4XmLo_scbfI&callback=runMap"
         async defer></script>
 	<script src="/scripts/main.js" type="text/javascript" charset="utf-8"></script>
 </body>

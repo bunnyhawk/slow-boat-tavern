@@ -8,27 +8,22 @@
   },
   "author": "Robert Higdon",
   "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
     "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
     "gulp-clean-css": "^2.0.13",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.2.0",
     "gulp-eslint": "^3.0.1",
     "gulp-file-include": "^0.13.7",
     "gulp-less": "^3.0.3",
-    "gulp-uglify": "^1.2.0",
-    "npm-css": "^0.2.3"
-  },
-  "repository": {
-    "url": "git@github.com:bunnyhawk/slow-boat-tavern.git",
-    "type": "git"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-es2015-rollup": "^1.2.0",
     "gulp-replace": "^0.5.4",
     "gulp-requirejs": "^0.2.0",
     "gulp-rollup": "^2.5.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "npm-css": "^0.2.3",
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
     "rollup-plugin-commonjs": "^5.0.5",
@@ -36,5 +31,13 @@
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-plugin-uglify": "^1.0.1"
+  },
+  "repository": {
+    "url": "git@github.com:bunnyhawk/slow-boat-tavern.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-concat": "^2.6.0"
   }
 }

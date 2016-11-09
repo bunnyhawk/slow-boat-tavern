@@ -42,6 +42,7 @@ gulp.task('html', function () {
 gulp.task('build-less', function(){
 	return gulp.src(paths.styles)
 		.pipe(less())
+		.pipe(concat('app.css'))
 		.pipe(gulp.dest('app/stylesheets'))
 		.pipe(connect.reload());
 });

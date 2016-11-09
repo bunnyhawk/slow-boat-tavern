@@ -71,9 +71,11 @@ var data = {
 };
 
 var beerListItems = data.list.map(function (item) {
-  return '<li class="item">\n  <h3 class="brewery">' + item.brewery + '</h3>\n  <span class="title">' + item.title + '</span>\n  <span class="size">' + item.size + '</span>\n  <span class="price">' + item.price + '</span>\n</li>';
+  return '<li class="beerlist_item">\n  <h3 class="beerlist_brewery">' + item.brewery + '</h3>\n  <span class="beerlist_title">' + item.title + '</span>\n  <span class="beerlist_size">' + item.size + '</span>\n  <span class="beerlist_price">' + item.price + '</span>\n</li>';
 }).join('\n ');
 
-document.getElementById('list').innerHTML += beerListItems;
+var beerList = '<ul class="beerlist_list">\n  ' + beerListItems + '\n</ul>';
+
+document.getElementById('list').innerHTML += beerList;
 
 }());

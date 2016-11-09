@@ -1,23 +1,18 @@
 import data from './beerlist.js';
-import map from './map/map.js';
+import { googleMap } from './map/map.js';
 
-var beerList = `<ul>
+var beerListItems = data.list.map((item) => {
+  return `<li class="beerlist_item">
+  <h3 class="beerlist_brewery">${item.brewery}</h3>
+  <span class="beerlist_title">${item.title}</span>
+  <span class="beerlist_size">${item.size}</span>
+  <span class="beerlist_price">${item.price}</span>
+</li>`}).join('\n ');
+
+var beerList = `<ul class="beerlist_list">
   ${beerListItems}
 </ul>`;
 
-var beerListItem = `<li class="item">
-  <h3 class="brewery">${item.brewery}</h3>
-  <span class="title">${item.title}</span>
-  <span class="size">${item.size}</span>
-  <span class="price">${item.price}</span>
-</li>`;
+document.getElementById('list').innerHTML += beerList;
 
-var beerListItems = data.list.map((item) => {
-  return `<li class="item">
-  <h3 class="brewery">${item.brewery}</h3>
-  <span class="title">${item.title}</span>
-  <span class="size">${item.size}</span>
-  <span class="price">${item.price}</span>
-</li>`}).join('\n ');
-
-document.getElementById('list').innerHTML += beerListItems;
+var runMap = () => { return googleMap; };
