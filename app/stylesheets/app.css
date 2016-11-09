@@ -38,9 +38,6 @@ body {
   background: -webkit-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
   background: radial-gradient(ellipse at center, #252525 0%, #000000 100%);
   border: 2px solid #713434;
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   list-style: none;
   font-family: Palatino, Georgia, serif;
   justify-content: space-between;
@@ -48,7 +45,7 @@ body {
 }
 .beerlist_item {
   font-weight: normal;
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
   position: relative;
   text-transform: uppercase;
   width: 100%;
@@ -64,32 +61,57 @@ body {
 .beerlist_title {
   font-size: 14px;
   font-size: 1.4rem;
+  display: inline-block;
   letter-spacing: .075rem;
-  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.beerlist_size {
+  font-size: 14px;
+  font-size: 1.4rem;
+  display: block;
 }
 .beerlist_price {
   font-size: 22px;
   font-size: 2.2rem;
   font-weight: normal;
+  line-height: 1;
   position: absolute;
   right: 0;
   top: 0;
+}
+.beerlist_price sup {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-left: 3px;
+  margin-right: -13px;
+  vertical-align: top;
 }
 @media (min-width: 640px) {
   .beerlit {
     padding: 1rem 2rem;
   }
   .beerlist_list {
+    column-count: 2;
+    column-gap: 20px;
     padding: 5rem;
   }
-  .beerlist_item {
-    padding-right: 2rem;
-    width: 45%;
+  .beerlist_brewery {
+    display: block;
+    padding-right: 7.5rem;
+  }
+  .beerlist_title {
+    margin-top: 0;
   }
   .beerlist_brewery,
   .beerlist_price {
     font-size: 32px;
     font-size: 3.2rem;
+  }
+  .beerlist_size {
+    position: absolute;
+    right: 11%;
+    top: 0;
   }
 }
 
@@ -104,6 +126,10 @@ body {
   background: -moz-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
   background: -webkit-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
   background: radial-gradient(ellipse at center, #252525 0%, #000000 100%);
+}
+
+.map {
+  height: 300px;
 }
 
 .header {
@@ -169,8 +195,4 @@ body {
     padding: 10px;
     width: auto;
   }
-}
-
-.map {
-  height: 300px;
 }

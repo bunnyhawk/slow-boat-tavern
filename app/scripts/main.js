@@ -71,7 +71,9 @@ var data = {
 };
 
 var beerListItems = data.list.map(function (item) {
-  return '<li class="beerlist_item">\n  <h3 class="beerlist_brewery">' + item.brewery + '</h3>\n  <span class="beerlist_title">' + item.title + '</span>\n  <span class="beerlist_size">' + item.size + '</span>\n  <span class="beerlist_price">' + item.price + '</span>\n</li>';
+  var splitDecimal = item.price.split('.');
+  var updatedPrice = splitDecimal.length > 1 ? splitDecimal[0] + '<sup>' + splitDecimal[1] + '</sup>' : item.price;
+  return '<li class="beerlist_item">\n  <h3 class="beerlist_brewery">' + item.brewery + '</h3>\n  <span class="beerlist_title">' + item.title + '</span>\n  <span class="beerlist_size">' + item.size + '</span>\n  <span class="beerlist_price">' + updatedPrice + '</span>\n</li>';
 }).join('\n ');
 
 var beerList = '<ul class="beerlist_list">\n  ' + beerListItems + '\n</ul>';
