@@ -51,12 +51,8 @@ gulp.task('scripts', function() {
 	return rollup({
 		entry: "components/app.js",
 		plugins: [
-			replace({
-				'process.env.NODE_ENV': JSON.stringify( 'production' )
-			}),
 			nodeResolve({
-				jsnext: true,
-				browser: true
+				jsnext: true
 			}),
 			commonjs(),
 			rollupBabel({
