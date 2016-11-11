@@ -1,0 +1,101 @@
+@import (reference) url('../global/colors.less');
+@import (reference) url('../global/mixins.less');
+
+.beerlist {
+  .wood-grain;
+  display: block;
+  padding: .25rem 1rem;
+}
+
+.beerlist_list {
+  .black-gradient;
+  border: 2px solid #713434;
+  list-style: none;
+  font-family: Palatino, Georgia, serif;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.beerlist_item {
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.beerlist_brewery {
+  .font-size(22);
+  font-weight: normal;
+  letter-spacing: .05rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.beerlist_title {
+  .font-size(14);
+  display: inline-block;
+  letter-spacing: .075rem;
+  margin-top: 1rem;
+}
+
+.beerlist_size {
+  .font-size(14);
+  display: block;
+}
+
+.beerlist_price {
+  .font-size(22);
+  font-weight: normal;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  sup {
+    .font-size(12);
+    line-height: 1.2;
+    margin-left: 3px;
+    margin-right: -13px;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 780px) {
+  .beerlit {
+    padding: 1rem 2rem;
+  }
+  .beerlist_list {
+    column-count: 2;
+    column-gap: 20px;
+
+    padding: 5rem;
+  }
+
+  .beerlist_brewery {
+    display: block;
+    padding-right: 7.5rem;
+  } 
+
+  .beerlist_title {
+    margin-top: 0;
+  }
+
+  .beerlist_brewery,
+  .beerlist_price {
+    .font-size(24);
+  }
+
+  .beerlist_size {
+    position: absolute;
+    right: 11%;
+    top: 0;
+  }
+}
+
+@media (min-width: 1030px) {
+  .beerlist_brewery,
+  .beerlist_price {
+    .font-size(32);
+  }
+}

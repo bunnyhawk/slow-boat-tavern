@@ -1,0 +1,39 @@
+@import (reference) url('../global/colors.less');
+@import (reference) url('../global/mixins.less');
+
+.header {
+  box-sizing: border-box;
+  .font-size(16);
+  margin: 0 auto;
+  text-align: center;
+
+  @media (min-width: 640px) {
+    min-height: 100vh;
+    padding-top: 40vh;
+  }
+}
+
+.header_container {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+
+  h1 {
+    .font-size(32);
+    font-weight: normal;
+    margin-top: 0;
+  }
+
+  address {
+    color: @font-light;
+    font-style: normal;
+  }
+}
+
+.header_logo {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}

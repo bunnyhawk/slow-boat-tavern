@@ -1,0 +1,34 @@
+@import (reference) url('../global/colors.less');
+@import (reference) url('../global/mixins.less');
+
+.imageFeed_list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.imageFeed_item {
+  display: inline-block;
+  margin: 1rem 0 0;
+  width: 48%;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .imageFeed {
+    margin-top: 5vh;
+  }
+}
+
+@media (min-width: 1030px) {
+  .imageFeed_item {
+    width: 23%;
+  }
+}
