@@ -1,6 +1,3 @@
-(function () {
-'use strict';
-
 var data = {
     "list": [{
         "brewery": "Holy Mountain",
@@ -71,6 +68,7 @@ var data = {
 };
 
 var googleMap = function googleMap() {
+  var myLatLng = { lat: 47.550987, lng: -122.277863 };
   var map = new google.maps.Map(document.getElementById('map'), {
     center: myLatLng,
     zoom: 13
@@ -81,6 +79,47 @@ var googleMap = function googleMap() {
     map: map,
     title: 'Hello World!'
   });
+};
+
+var imageFeed = function imageFeed() {
+    var apiUrl = 'https://api.instagram.com/v1/users/slowboattavern/media/recent/?access_token=f6ce4e112e434d589a84583ed7a3ce66';
+    var toReadyStateDescription = function toReadyStateDescription(state) {
+        switch (state) {
+            case 0:
+                return 'UNSENT';
+            case 1:
+                return 'OPENED';
+            case 2:
+                return 'HEADERS_RECEIVED';
+            case 3:
+                return 'LOADING';
+            case 4:
+                return 'DONE';
+            default:
+                return '';
+        }
+    };
+
+    var oReq = new XMLHttpRequest();
+    var results = document.getElementById('imageFeed');
+
+    oReq.onload = function (e) {
+        var xhr = e.target;
+        console.log('Inside the onload event');
+        if (xhr.responseType === 'json') {
+            results.innerHTML = xhr.response.message;
+        } else {
+            results.innerHTML = JSON.parse(xhr.responseText).message;
+        }
+    };
+    oReq.onreadystatechange = function () {
+        console.log('Inside the onreadystatechange event with readyState: ' + toReadyStateDescription(oReq.readyState));
+    };
+    oReq.open('GET', apiUrl, true);
+    oReq.responseType = 'json';
+    oReq.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    oReq.setRequestHeader('x-vanillaAjaxWithoutjQuery-version', '1.0');
+    oReq.send();
 };
 
 var beerListItems = data.list.map(function (item) {
@@ -94,6 +133,4 @@ var beerList = '<ul class="beerlist_list">' + beerListItems + '</ul>';
 
 document.getElementById('list').innerHTML += beerList;
 
-var runMap = googleMap();
-
-}());
+imageFeed();

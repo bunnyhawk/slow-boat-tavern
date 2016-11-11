@@ -62,7 +62,6 @@ gulp.task('scripts', function() {
 		]	
 	}).then(function(bundle) {
 		return bundle.write({
-      format: 'iife',
       dest: 'app/scripts/main.js'
     });
 	}).then(function() {
