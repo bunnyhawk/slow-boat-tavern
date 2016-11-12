@@ -1,6 +1,6 @@
 import data from './beerlist.js';
 import { googleMap } from './map/map.js';
-import { imageFeed } from './imageFeed/imageFeed.js';
+//import { imageFeed } from './imageFeed/imageFeed.js';
 
 var beerListItems = data.list.map((item) => {
   var splitDecimal = item.price.split('.');
@@ -17,8 +17,6 @@ var beerListItems = data.list.map((item) => {
 var beerList = `<ul class="beerlist_list">${beerListItems}</ul>`;
 
 document.getElementById('list').innerHTML += beerList;
-
-imageFeed();
 
 (function (window, document, undefined) {
   window.runMap = googleMap();

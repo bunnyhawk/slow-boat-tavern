@@ -1,5 +1,5 @@
 const imageFeed = () => {
-  const apiUrl = 'https://api.instagram.com/v1/users/slowboattavern/media/recent/?access_token=f6ce4e112e434d589a84583ed7a3ce66';
+  const apiUrl = 'https://api.instagram.com/v1/users/slowboattavern/media/recent/?access_token=7086226.e7091be.3f3b97123c7d455cb83623d3db296333';
   const toReadyStateDescription = function (state) {
       switch (state) {
       case 0:
