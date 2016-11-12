@@ -14,6 +14,9 @@ body {
   box-sizing: border-box;
 }
 .wrap {
+  background-color: #212121;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0.38) 29%, rgba(0, 0, 0, 0.45) 32%, rgba(0, 0, 0, 0.65) 40%);
+  background-size: 100vw auto;
   padding: 5%;
 }
 @media (min-width: 600px) {
@@ -21,7 +24,6 @@ body {
     background: url('/images/cover.jpg') no-repeat;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 74%, rgba(0, 0, 0, 0.38) 89%, rgba(0, 0, 0, 0.45) 92%, rgba(0, 0, 0, 0.65) 100%), url('/images/cover.jpg');
     background-size: 100vw auto;
-    padding: 10%;
   }
 }
 
@@ -88,7 +90,7 @@ body {
   margin-right: -13px;
   vertical-align: top;
 }
-@media (min-width: 780px) {
+@media (min-width: 760px) {
   .beerlit {
     padding: 1rem 2rem;
   }
@@ -123,19 +125,6 @@ body {
   }
 }
 
-
-.wood-grain {
-  background-color: #6c2505;
-  background-size: 40px 160px, 60px 29px, 27px 27px;
-  background-image: linear-gradient(94deg, rgba(91, 33, 5, 0.1) 0%, rgba(83, 29, 4, 0.32) 23%, rgba(74, 24, 3, 0.41) 47%, rgba(80, 27, 5, 0.44) 70%, rgba(81, 27, 5, 0.59) 74%, rgba(93, 33, 4, 0.2) 83%, rgba(115, 43, 3, 0.5) 100%), linear-gradient(90deg, #541c09 50%, transparent 50%), linear-gradient(90deg, #7a2e00 50%, #632401 50%);
-}
-.black-gradient {
-  background: #252525;
-  background: -moz-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
-  background: radial-gradient(ellipse at center, #252525 0%, #000000 100%);
-}
-
 .header {
   box-sizing: border-box;
   font-size: 16px;
@@ -149,9 +138,20 @@ body {
     padding-top: 40vh;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .header {
+    min-height: 40vh;
+    padding-top: 20vh;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .header {
+    min-height: 100vh;
+    padding-top: 35vh;
+  }
+}
 .header_container {
   background: rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
   display: inline-block;
   padding: 20px;
   text-shadow: 2px 2px 4px #000000;
@@ -203,4 +203,17 @@ body {
 .map {
   height: 300px;
   margin-top: 5vh;
+}
+
+
+.wood-grain {
+  background-color: #6c2505;
+  background-size: 40px 160px, 60px 29px, 27px 27px;
+  background-image: linear-gradient(94deg, rgba(91, 33, 5, 0.1) 0%, rgba(83, 29, 4, 0.32) 23%, rgba(74, 24, 3, 0.41) 47%, rgba(80, 27, 5, 0.44) 70%, rgba(81, 27, 5, 0.59) 74%, rgba(93, 33, 4, 0.2) 83%, rgba(115, 43, 3, 0.5) 100%), linear-gradient(90deg, #541c09 50%, transparent 50%), linear-gradient(90deg, #7a2e00 50%, #632401 50%);
+}
+.black-gradient {
+  background: #252525;
+  background: -moz-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #252525 0%, #000000 100%);
+  background: radial-gradient(ellipse at center, #252525 0%, #000000 100%);
 }
