@@ -1,7 +1,7 @@
 export default {
     "list": [
         {
-            "brewery": "Holy Mountain Test",
+            "brewery": "Holy Mountain",
             "title": "Remnant, Hoppy Brett Saison",
             "size": "12 oz",
             "price": "6"
