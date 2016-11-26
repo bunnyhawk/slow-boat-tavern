@@ -67,10 +67,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Block 15",
-            "title": "Fluffhead IPA",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "",
