@@ -1,50 +1,50 @@
 export default {
     "list": [
         {
-            "brewery": "Boon",
-            "title": "Oud Kriek",
+            "brewery": "CloudBurst",
+            "title": "Hoppy Little Clouds Pilsner",
+            "size": "16 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Mikkeller",
+            "title": "Beer Geek Breakfast Stout",
             "size": "8 oz",
             "price": "8"
         },
         {
-            "brewery": "Cascade",
-            "title": "2013 Vine",
-            "size": "8 oz",
-            "price": "8"
-        },
-        {
-            "brewery": "JW Lees",
-            "title": "Harvest ale, Calvados",
-            "size": "8 oz",
-            "price": "10"
-        },
-        {
-            "brewery": "Hitachino",
-            "title": "Wine Barrell Aged XH",
-            "size": "8 oz",
-            "price": "9"
-        },
-        {
-            "brewery": "De Struise",
-            "title": "Cuvee Delphine, Four Roses barrell aged Stout",
+            "brewery": "Mikkeller",
+            "title": "Spontanbeetroot",
             "size": "8 oz",
             "price": "11"
         },
         {
-            "brewery": "Dieu du Ciel",
-            "title": "Aphrodisiaque Stout",
+            "brewery": "Samichlaus",
+            "title": "2014 Strong Ale",
             "size": "8 oz",
-            "price": "7"
+            "price": "9"
         },
         {
-            "brewery": "Rodenbach",
-            "title": "Caractere Rouge",
+            "brewery": "Alesmith",
+            "title": "Vietnamese Speedway Stout",
             "size": "8 oz",
             "price": "8"
         },
         {
+            "brewery": "Birrificio",
+            "title": "Beersel Mattina",
+            "size": "8 oz",
+            "price": "11"
+        },
+        {
+            "brewery": "De Dolle",
+            "title": "Dulle Teve",
+            "size": "8 oz",
+            "price": "9"
+        },
+        {
             "brewery": "Holy Mountain",
-            "title": "Demonteller Saison",
+            "title": "Crystal Ship",
             "size": "12 oz",
             "price": "6"
         },
@@ -55,14 +55,14 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Chuckanut",
-            "title": "Pilsner",
+            "brewery": "Cloudburst",
+            "title": "Slap Bag IPA",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "No Touching IPA",
+            "brewery": "Holy Mountain",
+            "title": "Kiln & Cone Pale",
             "size": "16 oz",
             "price": "6"
         },
