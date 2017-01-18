@@ -25,10 +25,10 @@ export default {
             "price": "9"
         },
         {
-            "brewery": "Alesmith",
-            "title": "Vietnamese Speedway Stout",
-            "size": "8 oz",
-            "price": "8"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Birrificio",
@@ -44,7 +44,7 @@ export default {
         },
         {
             "brewery": "Holy Mountain",
-            "title": "Crystal Ship",
+            "title": "Transfiguration",
             "size": "12 oz",
             "price": "6"
         },
@@ -61,10 +61,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Kiln & Cone Pale",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "",
