@@ -1,34 +1,34 @@
 export default {
     "list": [
         {
-            "brewery": "CloudBurst",
-            "title": "Hoppy Little Clouds Pilsner",
+            "brewery": "Chuckanut",
+            "title": "Pilsner",
+            "size": "16 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Cloudburst",
+            "title": "Alternative Facts IPA",
             "size": "16 oz",
             "price": "6"
         },
         {
             "brewery": "Mikkeller",
-            "title": "Beer Geek Breakfast Stout",
-            "size": "8 oz",
-            "price": "8"
-        },
-        {
-            "brewery": "Mikkeller",
-            "title": "Spontanbeetroot",
+            "title": "Spontancarrot",
             "size": "8 oz",
             "price": "11"
         },
         {
-            "brewery": "Samichlaus",
-            "title": "2014 Strong Ale",
-            "size": "8 oz",
-            "price": "9"
+            "brewery": "Engine House Nine",
+            "title": "Holy Diver, wine barrel aged strong ale",
+            "size": "12 oz",
+            "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Holy Mountain",
+            "title": "Transfiguration Saison",
+            "size": "12 oz",
+            "price": "6"
         },
         {
             "brewery": "Birrificio",
@@ -43,8 +43,8 @@ export default {
             "price": "9"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Transfiguration",
+            "brewery": "Ridgeway",
+            "title": "Very bad elf, English strong",
             "size": "12 oz",
             "price": "6"
         },
@@ -55,22 +55,22 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Slap Bag IPA",
+            "brewery": "Engine House Nine",
+            "title": "Michelle the Gamer Pale Ale",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Cloudburst",
+            "title": "Darkenfloxx Stout",
+            "size": "12 oz",
+            "price": "8"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Mystic Brewing",
+            "title": "Table Beer",
+            "size": "12 oz",
+            "price": "7"
         },
         {
             "brewery": "",
