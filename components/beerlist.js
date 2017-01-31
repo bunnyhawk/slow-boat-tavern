@@ -7,14 +7,14 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Alternative Facts IPA",
+            "brewery": "BLock 15",
+            "title": "Sticky Hands IPA",
             "size": "16 oz",
             "price": "6"
         },
         {
             "brewery": "Mikkeller",
-            "title": "Spontancarrot",
+            "title": "Spontanlingonberry",
             "size": "8 oz",
             "price": "11"
         },
@@ -31,10 +31,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Birrificio",
-            "title": "Beersel Mattina",
+            "brewery": "Rodenbach",
+            "title": "Gran Cru",
             "size": "8 oz",
-            "price": "11"
+            "price": "9"
         },
         {
             "brewery": "De Dolle",
@@ -55,22 +55,22 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Engine House Nine",
-            "title": "Michelle the Gamer Pale Ale",
+            "brewery": "Cloudburst",
+            "title": "Idunno Pale Ale",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Darkenfloxx Stout",
-            "size": "12 oz",
+            "brewery": "To Ol",
+            "title": "Goliat Bourbon Stout",
+            "size": "8 oz",
             "price": "8"
         },
         {
-            "brewery": "Mystic Brewing",
-            "title": "Table Beer",
-            "size": "12 oz",
-            "price": "7"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "",
