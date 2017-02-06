@@ -1,14 +1,14 @@
 export default {
     "list": [
         {
-            "brewery": "Chuckanut",
-            "title": "Pilsner",
+            "brewery": "Cloudburst",
+            "title": "Hoppy little clouds Pilsner",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "BLock 15",
-            "title": "Sticky Hands IPA",
+            "brewery": "Fremont",
+            "title": "Lush IPA",
             "size": "16 oz",
             "price": "6"
         },
@@ -19,14 +19,14 @@ export default {
             "price": "11"
         },
         {
-            "brewery": "Engine House Nine",
-            "title": "Holy Diver, wine barrel aged strong ale",
-            "size": "12 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Holy Mountain",
-            "title": "Transfiguration Saison",
+            "title": "Minor Planet Saison",
             "size": "12 oz",
             "price": "6"
         },
@@ -55,10 +55,10 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Idunno Pale Ale",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "To Ol",
