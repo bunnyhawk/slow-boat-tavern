@@ -19,10 +19,10 @@ export default {
             "price": "11"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Cloudburst",
+            "title": "Rhythm Method IPA",
+            "size": "16 oz",
+            "price": "6"
         },
         {
             "brewery": "Holy Mountain",
@@ -43,9 +43,9 @@ export default {
             "price": "9"
         },
         {
-            "brewery": "Ridgeway",
-            "title": "Very bad elf, English strong",
-            "size": "12 oz",
+            "brewery": "Holy Mountain",
+            "title": "Dawnbringer Pale",
+            "size": "16 oz",
             "price": "6"
         },
         {
@@ -55,10 +55,10 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Cloudburst",
+            "title": "Swedish Prison Orgy, Triple IPA",
+            "size": "8 oz",
+            "price": "7"
         },
         {
             "brewery": "To Ol",
@@ -67,10 +67,10 @@ export default {
             "price": "8"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Block 15",
+            "title": "Prophecies, Belgian Style Quad",
+            "size": "12",
+            "price": "6"
         },
         {
             "brewery": "",
