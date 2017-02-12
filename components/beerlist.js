@@ -7,14 +7,14 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Fremont",
-            "title": "Lush IPA",
+            "brewery": "Holy Mountain",
+            "title": "Kiln & Cone Pale",
             "size": "16 oz",
             "price": "6"
         },
         {
             "brewery": "Mikkeller",
-            "title": "Spontanlingonberry",
+            "title": "Spontanyuzu",
             "size": "8 oz",
             "price": "11"
         },
@@ -26,7 +26,7 @@ export default {
         },
         {
             "brewery": "Holy Mountain",
-            "title": "Minor Planet Saison",
+            "title": "Refraction Saison",
             "size": "12 oz",
             "price": "6"
         },
@@ -43,10 +43,10 @@ export default {
             "price": "9"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Dawnbringer Pale",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Rainier",
