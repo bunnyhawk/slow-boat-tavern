@@ -43,10 +43,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "3 Magnets",
+            "title": "Hazy Hero IPA",
+            "size": "16",
+            "price": "6"
         },
         {
             "brewery": "Rainier",
