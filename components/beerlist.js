@@ -8,8 +8,8 @@ export default {
         },
         {
             "brewery": "Holy Mountain",
-            "title": "Kiln & Cone Pale",
-            "size": "16 oz",
+            "title": "Haxan, Imperial Oatmeal Milk Stout!",
+            "size": "12 oz",
             "price": "6"
         },
         {
@@ -37,16 +37,16 @@ export default {
             "price": "9"
         },
         {
-            "brewery": "De Dolle",
-            "title": "Dulle Teve",
-            "size": "8 oz",
-            "price": "9"
+            "brewery": "Block 15",
+            "title": "Sticky Hands IPA",
+            "size": "16 oz",
+            "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "3 Magnets",
+            "title": "Hazy Hero IPA",
+            "size": "16",
+            "price": "6"
         },
         {
             "brewery": "Rainier",
@@ -55,22 +55,22 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Swedish Prison Orgy, Triple IPA",
-            "size": "8 oz",
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
+        },
+        {
+            "brewery": "Nogne O",
+            "title": "#100 Barley Wine",
+            "size": "12 oz",
             "price": "7"
         },
         {
-            "brewery": "To Ol",
-            "title": "Goliat Bourbon Stout",
-            "size": "8 oz",
-            "price": "8"
-        },
-        {
-            "brewery": "Block 15",
-            "title": "Prophecies, Belgian Style Quad",
-            "size": "12",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "",
