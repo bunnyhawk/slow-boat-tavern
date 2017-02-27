@@ -2,51 +2,51 @@ export default {
     "list": [
         {
             "brewery": "Cloudburst",
-            "title": "Hoppy little clouds Pilsner",
+            "title": "Legend has it, IPA",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Haxan, Imperial Oatmeal Milk Stout!",
-            "size": "12 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Mikkeller",
-            "title": "Spontanyuzu",
+            "brewery": "E Nine",
+            "title": "Nectarberry",
             "size": "8 oz",
-            "price": "11"
+            "price": "7"
         },
         {
-            "brewery": "3 Magnets",
-            "title": "Hazy Hero IPA",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "Jolly Pumpkin/Anchorage",
+            "title": "Calabaza Boreal",
+            "size": "8 oz",
+            "price": "8"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Refraction Saison",
-            "size": "12 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Rodenbach",
-            "title": "Gran Cru",
+            "brewery": "Jester King",
+            "title": "Noble King",
             "size": "8 oz",
             "price": "9"
         },
         {
-            "brewery": "Block 15",
-            "title": "Sticky Hands IPA",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "Jester King",
+            "title": "Kvass",
+            "size": "8 oz",
+            "price": "9"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Jester King",
+            "title": "Figlet",
+            "size": "8 oz",
+            "price": "9"
+        },
+        {
+            "brewery": "De Garde",
+            "title": "Bu Weisse",
+            "size": "12 oz",
+            "price": "7"
+        },
+        {
+            "brewery": "Oud Beersel",
+            "title": "Oud Lambic",
+            "size": "8 oz",
+            "price": "10"
         },
         {
             "brewery": "Rainier",
@@ -55,10 +55,10 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Chuckanut",
+            "title": "Pilsner",
+            "size": "16 oz",
+            "price": "6"
         },
         {
             "brewery": "Nogne O",
@@ -67,10 +67,10 @@ export default {
             "price": "7"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Alesmith",
+            "title": "Mokasida Speedway Stout",
+            "size": "8 oz",
+            "price": "9"
         },
         {
             "brewery": "",
