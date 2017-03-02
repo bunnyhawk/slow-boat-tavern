@@ -7,10 +7,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "E Nine",
-            "title": "Nectarberry",
-            "size": "8 oz",
-            "price": "7"
+            "brewery": "Holy Mountain",
+            "title": "Haxan, Imperial Stout",
+            "size": "12 oz",
+            "price": "6"
         },
         {
             "brewery": "Jolly Pumpkin/Anchorage",
@@ -31,10 +31,10 @@ export default {
             "price": "9"
         },
         {
-            "brewery": "Jester King",
-            "title": "Figlet",
+            "brewery": "Holy Mountain",
+            "title": "Deadfall, Stock Ale",
             "size": "8 oz",
-            "price": "9"
+            "price": "6"
         },
         {
             "brewery": "De Garde",
@@ -61,16 +61,16 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Nogne O",
-            "title": "#100 Barley Wine",
-            "size": "12 oz",
-            "price": "7"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
-            "brewery": "Alesmith",
-            "title": "Mokasida Speedway Stout",
-            "size": "8 oz",
-            "price": "9"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "",
