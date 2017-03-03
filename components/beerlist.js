@@ -4,7 +4,7 @@ export default {
             "brewery": "Cloudburst",
             "title": "Legend has it, IPA",
             "size": "16 oz",
-            "price": "6.5"
+            "price": "6"
         },
         {
             "brewery": "Rodenbach",
