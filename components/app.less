@@ -21,27 +21,25 @@ body {
 
 .wrap {
   background-color: #212121;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 14%,
-      rgba(0, 0, 0, .38) 29%,
-      rgba(0, 0, 0, .45) 32%,
-      rgba(44, 44, 44, .65) 100%
+  background-image: url('/images/cover.jpg'),
+  linear-gradient(
+    to right,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(44, 44, 44, .7) 10%,
+      rgba(44, 44, 44, .6) 50%,
+      rgba(44, 44, 44, .7) 90%,
+      rgba(0, 0, 0, 1) 100%
   );
   background-size: 100vw auto;
+  background-position: top center;
+  background-repeat: no-repeat;
   padding: 5%;
 }
 
 @media (min-width: 600px) {
   .wrap {
-    background: url('/images/cover.jpg') no-repeat;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(6, 6, 6, .2) 0%,
-      rgba(6, 6, 6, .5) 92%,
-      rgba(6, 6, 6, 1) 100%
-    ),
-    url('/images/cover.jpg');
     background-size: 100vw auto;
+    overflow: auto;
+    padding: 0;
   }
 }

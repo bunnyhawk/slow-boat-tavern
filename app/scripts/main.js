@@ -1,44 +1,44 @@
 var data = {
     "list": [{
-        "brewery": "Holy Mountain",
-        "title": "Remnant, Hoppy Brett Saison",
-        "size": "12 oz",
-        "price": "6"
-    }, {
-        "brewery": "Holy Mountain",
-        "title": "Somnium, Barrel Aged Saison",
-        "size": "12 oz",
-        "price": "6"
-    }, {
         "brewery": "Cloudburst",
-        "title": "Dry Hopped Pale Ale",
-        "size": "Pint",
-        "price": "6"
-    }, {
-        "brewery": "Mikkeller",
-        "title": "Fresh Hop Black IPA",
-        "size": "8 oz",
-        "price": "7"
-    }, {
-        "brewery": "Cascade",
-        "title": "Framblanc",
-        "size": "8 oz",
-        "price": "10"
-    }, {
-        "brewery": "E9",
-        "title": "Pogo Stick IPA",
+        "title": "Legend has it, IPA",
         "size": "16 oz",
         "price": "6"
     }, {
-        "brewery": "Monkish Jolly Pumpkin'",
-        "title": "Cucurbitophobia Saison",
+        "brewery": "Holy Mountain",
+        "title": "Haxan, Imperial Stout",
+        "size": "12 oz",
+        "price": "6"
+    }, {
+        "brewery": "Jolly Pumpkin/Anchorage",
+        "title": "Calabaza Boreal",
         "size": "8 oz",
         "price": "8"
     }, {
-        "brewery": "Alesmith",
-        "title": "Kona Speedway Imperial Stout",
+        "brewery": "Jester King",
+        "title": "Noble King",
+        "size": "8 oz",
+        "price": "9"
+    }, {
+        "brewery": "Jester King",
+        "title": "Kvass",
+        "size": "8 oz",
+        "price": "9"
+    }, {
+        "brewery": "Holy Mountain",
+        "title": "Deadfall, Stock Ale",
         "size": "8 oz",
         "price": "6"
+    }, {
+        "brewery": "De Garde",
+        "title": "Bu Weisse",
+        "size": "12 oz",
+        "price": "7"
+    }, {
+        "brewery": "Oud Beersel",
+        "title": "Oud Lambic",
+        "size": "8 oz",
+        "price": "10"
     }, {
         "brewery": "Rainier",
         "title": "Lager",
@@ -50,20 +50,20 @@ var data = {
         "size": "16 oz",
         "price": "6"
     }, {
-        "brewery": "Rodenbach",
-        "title": "Grand Cru Sour Red",
-        "size": "8 oz",
-        "price": "9"
+        "brewery": "",
+        "title": "",
+        "size": "",
+        "price": ""
     }, {
-        "brewery": "Dieu de Ciel",
-        "title": "Rigor Mortis Abbey Ale",
-        "size": "8 oz",
-        "price": "7"
+        "brewery": "",
+        "title": "",
+        "size": "",
+        "price": ""
     }, {
-        "brewery": "Omnipollo",
-        "title": "Mango Lassi Gose",
-        "size": "8 oz",
-        "price": "9"
+        "brewery": "",
+        "title": "",
+        "size": "",
+        "price": ""
     }]
 };
 

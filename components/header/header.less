@@ -30,13 +30,21 @@
 .header_container {
   background: rgba(0, 0, 0, .4);
   background: repeating-linear-gradient(-45deg,
-    rgba(0, 0, 0, .5),
-    rgba(0, 0, 0, .5) 5px,
+    rgba(0, 0, 0, .4),
+    rgba(0, 0, 0, .4) 5px,
     rgba(0, 0, 0, .2) 5px,
     rgba(0, 0, 0, .2) 10px);
+  bottom: 0;
+  border-radius: 50%;
   display: inline-block;
+  height: 375px;
+  left: 50%;
+  margin: 0 auto 10px;
   padding: 20px;
+  position: absolute;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  transform: translateX(-50%);
+  width: 375px;
 
   h1 {
     .font-size(32);

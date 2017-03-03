@@ -15,15 +15,17 @@ body {
 }
 .wrap {
   background-color: #212121;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0.38) 29%, rgba(0, 0, 0, 0.45) 32%, rgba(0, 0, 0, 0.65) 40%);
+  background-image: url('/images/cover.jpg'), linear-gradient(to right, #000000 0%, rgba(44, 44, 44, 0.7) 10%, rgba(44, 44, 44, 0.6) 50%, rgba(44, 44, 44, 0.7) 90%, #000000 100%);
   background-size: 100vw auto;
+  background-position: top center;
+  background-repeat: no-repeat;
   padding: 5%;
 }
 @media (min-width: 600px) {
   .wrap {
-    background: url('/images/cover.jpg') no-repeat;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 74%, rgba(0, 0, 0, 0.38) 89%, rgba(0, 0, 0, 0.45) 92%, rgba(0, 0, 0, 0.65) 100%), url('/images/cover.jpg');
     background-size: 100vw auto;
+    overflow: auto;
+    padding: 0;
   }
 }
 
@@ -91,7 +93,8 @@ body {
   vertical-align: top;
 }
 @media (min-width: 760px) {
-  .beerlit {
+  .beerlist {
+    margin: 0 5%;
     padding: 1rem 2rem;
   }
   .beerlist_list {
@@ -165,9 +168,18 @@ body {
 }
 .header_container {
   background: rgba(0, 0, 0, 0.4);
+  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 5px, rgba(0, 0, 0, 0.2) 5px, rgba(0, 0, 0, 0.2) 10px);
+  bottom: 0;
+  border-radius: 50%;
   display: inline-block;
+  height: 375px;
+  left: 50%;
+  margin: 0 auto 10px;
   padding: 20px;
+  position: absolute;
   text-shadow: 2px 2px 4px #000000;
+  transform: translateX(-50%);
+  width: 375px;
 }
 .header_container h1 {
   font-size: 32px;
@@ -215,5 +227,5 @@ body {
 
 .map {
   height: 300px;
-  margin-top: 5vh;
+  margin: 5vh 5%;
 }
