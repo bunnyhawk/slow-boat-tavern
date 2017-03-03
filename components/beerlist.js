@@ -7,10 +7,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Haxan, Imperial Stout",
-            "size": "12 oz",
-            "price": "6"
+            "brewery": "Rodenbach",
+            "title": "Grand Cru",
+            "size": "8 oz",
+            "price": "9"
         },
         {
             "brewery": "Jolly Pumpkin/Anchorage",
@@ -55,22 +55,22 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Chuckanut",
-            "title": "Pilsner",
+            "brewery": "Cloudburst",
+            "title": "Happy little clouds, Pilsner",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Cloudburst",
+            "title": "Broken Specter, Pale",
+            "size": "16oz",
+            "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Epic",
+            "title": "Son of Baptist, Coffee Stout",
+            "size": "12oz",
+            "price": "6"
         },
         {
             "brewery": "",
