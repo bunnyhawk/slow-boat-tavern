@@ -1,16 +1,16 @@
 export default {
     "list": [
         {
-            "brewery": "Cloudburst",
-            "title": "Legend has it, IPA",
+            "brewery": "Boneyard, Barley Brown",
+            "title": "Allocation, Double IPA",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "Rodenbach",
-            "title": "Grand Cru",
-            "size": "8 oz",
-            "price": "9"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Jolly Pumpkin/Anchorage",
@@ -19,16 +19,16 @@ export default {
             "price": "8"
         },
         {
-            "brewery": "Jester King",
-            "title": "Noble King",
-            "size": "8 oz",
-            "price": "9"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
-            "brewery": "Jester King",
-            "title": "Kvass",
-            "size": "8 oz",
-            "price": "9"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Holy Mountain",
