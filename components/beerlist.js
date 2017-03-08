@@ -7,16 +7,16 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "E Nine",
+            "title": "Barry Manilow, Tacoma Wild",
+            "size": "8 oz",
+            "price": "7"
         },
         {
-            "brewery": "Jolly Pumpkin/Anchorage",
-            "title": "Calabaza Boreal",
+            "brewery": "Fair Island",
+            "title": "Fair Voyage",
             "size": "8 oz",
-            "price": "8"
+            "price": "9"
         },
         {
             "brewery": "",
@@ -32,15 +32,15 @@ export default {
         },
         {
             "brewery": "Holy Mountain",
-            "title": "Deadfall, Stock Ale",
-            "size": "8 oz",
+            "title": "True Will, Foudre aged Saison",
+            "size": "12 oz",
             "price": "6"
         },
         {
-            "brewery": "De Garde",
-            "title": "Bu Weisse",
+            "brewery": "Sierra Nevada",
+            "title": "2015 Bigfoot Barley Wine",
             "size": "12 oz",
-            "price": "7"
+            "price": "6"
         },
         {
             "brewery": "Oud Beersel",
