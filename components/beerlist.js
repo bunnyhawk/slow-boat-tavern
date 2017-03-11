@@ -1,10 +1,10 @@
 export default {
     "list": [
         {
-            "brewery": "Boneyard, Barley Brown",
-            "title": "Allocation, Double IPA",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "Unibroue",
+            "title": "2015 La Resolution",
+            "size": "8 oz",
+            "price": "7"
         },
         {
             "brewery": "E Nine",
@@ -12,11 +12,11 @@ export default {
             "size": "8 oz",
             "price": "7"
         },
-        {
-            "brewery": "Fair Island",
-            "title": "Fair Voyage",
+       {
+            "brewery": "Dieu Du Ciel",
+            "title": "Equinoxe Printemps",
             "size": "8 oz",
-            "price": "9"
+            "price": "7"
         },
         {
             "brewery": "",
@@ -67,9 +67,9 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Epic",
-            "title": "Son of Baptist, Coffee Stout",
-            "size": "12oz",
+            "brewery": "Cloudburst",
+            "title": "Soft Shock, IPA",
+            "size": "16 oz",
             "price": "6"
         },
         {
