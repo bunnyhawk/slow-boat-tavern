@@ -8,8 +8,8 @@ export default {
         },
         {
             "brewery": "E Nine",
-            "title": "Barry Manilow, Tacoma Wild",
-            "size": "8 oz",
+            "title": "Apricot Sour",
+            "size": "12 oz",
             "price": "7"
         },
        {
@@ -19,10 +19,10 @@ export default {
             "price": "7"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Holy Mountain & Jolly Pumpkin",
+            "title": "Ron Hawaii, IPA",
+            "size": "16 oz",
+            "price": "6"
         },
         {
             "brewery": "",
@@ -32,7 +32,7 @@ export default {
         },
         {
             "brewery": "Holy Mountain",
-            "title": "True Will, Foudre aged Saison",
+            "title": "Crystal Ship, Foudre aged Saison",
             "size": "12 oz",
             "price": "6"
         },
@@ -43,10 +43,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Oud Beersel",
-            "title": "Oud Lambic",
+            "brewery": "Kerkom",
+            "title": "Kriek",
             "size": "8 oz",
-            "price": "10"
+            "price": "6"
         },
         {
             "brewery": "Rainier",
@@ -61,10 +61,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Broken Specter, Pale",
-            "size": "16oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Cloudburst",
