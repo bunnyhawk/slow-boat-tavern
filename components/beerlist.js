@@ -7,10 +7,10 @@ export default {
             "price": "7"
         },
         {
-            "brewery": "E Nine",
-            "title": "Apricot Sour",
-            "size": "12 oz",
-            "price": "7"
+            "brewery": "Oersoep",
+            "title": "Wild at Heart",
+            "size": "8 oz",
+            "price": "8"
         },
        {
             "brewery": "Dieu Du Ciel",
@@ -19,8 +19,8 @@ export default {
             "price": "7"
         },
         {
-            "brewery": "Holy Mountain & Jolly Pumpkin",
-            "title": "Ron Hawaii, IPA",
+            "brewery": "Block 15",
+            "title": "Atmosphere, dry hopped pale",
             "size": "16 oz",
             "price": "6"
         },
