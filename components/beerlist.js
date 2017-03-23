@@ -20,7 +20,7 @@ export default {
         },
         {
             "brewery": "Block 15",
-            "title": "Atmosphere, dry hopped pale",
+            "title": "Big Fish, IPA",
             "size": "16 oz",
             "price": "6"
         },
@@ -31,10 +31,10 @@ export default {
             "price": ""
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Crystal Ship, Foudre aged Saison",
+            "brewery": "La Trou Du Diable",
+            "title": "Saison Du Tracteur",
             "size": "12 oz",
-            "price": "6"
+            "price": "8"
         },
         {
             "brewery": "Sierra Nevada",
@@ -55,8 +55,8 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Happy little clouds, Pilsner",
+            "brewery": "Chuckanut",
+            "title": "Pilsner",
             "size": "16 oz",
             "price": "6"
         },
