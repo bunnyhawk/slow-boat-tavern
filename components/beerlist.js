@@ -25,10 +25,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Mikkeller",
+            "title": "Spontanlemon",
+            "size": "8 oz",
+            "price": "11"
         },
         {
             "brewery": "La Trou Du Diable",
