@@ -1,16 +1,16 @@
 export default {
     "list": [
         {
-            "brewery": "Unibroue",
-            "title": "2015 La Resolution",
-            "size": "8 oz",
-            "price": "7"
-        },
-        {
-            "brewery": "Oersoep",
-            "title": "Wild at Heart",
+            "brewery": "E Nine",
+            "title": "Nefelibata, Flanders Red",
             "size": "8 oz",
             "price": "8"
+        },
+        {
+            "brewery": "Holy Mountain & Chuckanut",
+            "title": "Oak Fermented Weizenbock",
+            "size": "12 oz",
+            "price": "6"
         },
        {
             "brewery": "Dieu Du Ciel",
@@ -19,8 +19,8 @@ export default {
             "price": "7"
         },
         {
-            "brewery": "Block 15",
-            "title": "Big Fish, IPA",
+            "brewery": "E Nine",
+            "title": "Michelle The Gamer, IPA",
             "size": "16 oz",
             "price": "6"
         },
@@ -37,10 +37,10 @@ export default {
             "price": "8"
         },
         {
-            "brewery": "Sierra Nevada",
-            "title": "2015 Bigfoot Barley Wine",
-            "size": "12 oz",
-            "price": "6"
+            "brewery": "Alesmith",
+            "title": "Nibs & Beans Speedway Stout",
+            "size": "8 oz",
+            "price": "8"
         },
         {
             "brewery": "Kerkom",
@@ -55,28 +55,28 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Chuckanut",
+            "brewery": "Cloudburst",
             "title": "Pilsner",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
-        },
-        {
-            "brewery": "Cloudburst",
-            "title": "Soft Shock, IPA",
+            "brewery": "Holy Mountain & Tired Hands",
+            "title": "Satan is Real, Oaked Pilsner",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Cloudburst",
+            "title": "Talk & Not Talk, IPA",
+            "size": "16 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Freigeist",
+            "title": "Mango Gose",
+            "size": "8 oz",
+            "price": "8"
         }
     ]
 }
