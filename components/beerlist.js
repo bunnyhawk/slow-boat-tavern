@@ -13,16 +13,16 @@ export default {
             "price": "6"
         },
        {
-            "brewery": "Dieu Du Ciel",
-            "title": "Equinoxe Printemps",
-            "size": "8 oz",
-            "price": "7"
+            "brewery": "Mikkeller",
+            "title": "Blue Skies, Pale Ale",
+            "size": "16 oz",
+            "price": "5"
         },
         {
-            "brewery": "E Nine",
-            "title": "Michelle The Gamer, IPA",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Mikkeller",
@@ -31,10 +31,10 @@ export default {
             "price": "11"
         },
         {
-            "brewery": "La Trou Du Diable",
-            "title": "Saison Du Tracteur",
+            "brewery": "Holy Mountain",
+            "title": "Crystal Ship, Saison",
             "size": "12 oz",
-            "price": "8"
+            "price": "6"
         },
         {
             "brewery": "Alesmith",
@@ -61,14 +61,14 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Holy Mountain & Tired Hands",
-            "title": "Satan is Real, Oaked Pilsner",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Cloudburst",
-            "title": "Talk & Not Talk, IPA",
+            "title": "It's Not All Flowers, IPA",
             "size": "16 oz",
             "price": "6"
         },
