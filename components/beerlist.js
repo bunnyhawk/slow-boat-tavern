@@ -68,7 +68,7 @@ export default {
         },
         {
             "brewery": "Cloudburst",
-            "title": "It's Not All Flowers, IPA",
+            "title": "Wanna Get Away, IPA",
             "size": "16 oz",
             "price": "6"
         },
