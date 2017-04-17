@@ -13,10 +13,10 @@ export default {
             "price": "6"
         },
        {
-            "brewery": "Mikkeller",
-            "title": "Blue Skies, Pale Ale",
-            "size": "16 oz",
-            "price": "5"
+            "brewery": "Deschutes",
+            "title": "2016 Abyss, Imperial Stout",
+            "size": "12 oz",
+            "price": "8"
         },
         {
             "brewery": "",
@@ -32,21 +32,21 @@ export default {
         },
         {
             "brewery": "Holy Mountain",
-            "title": "Crystal Ship, Saison",
+            "title": "Covenant, Saison",
             "size": "12 oz",
             "price": "6"
         },
         {
-            "brewery": "Alesmith",
-            "title": "Nibs & Beans Speedway Stout",
-            "size": "8 oz",
-            "price": "8"
+            "brewery": "E Nine",
+            "title": "Pogo Stick, IPA",
+            "size": "16 oz",
+            "price": "6"
         },
         {
-            "brewery": "Kerkom",
-            "title": "Kriek",
-            "size": "8 oz",
-            "price": "6"
+            "brewery": "Prairie",
+            "title": "Phantasmagoria, Double IPA",
+            "size": "12 oz",
+            "price": "7"
         },
         {
             "brewery": "Rainier",
@@ -55,8 +55,8 @@ export default {
             "price": "2.50"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Pilsner",
+            "brewery": "Chuckanut",
+            "title": "Vienna Lager",
             "size": "16 oz",
             "price": "6"
         },
@@ -68,7 +68,7 @@ export default {
         },
         {
             "brewery": "Cloudburst",
-            "title": "It's Not All Flowers, IPA",
+            "title": "Wanna Get Away, IPA",
             "size": "16 oz",
             "price": "6"
         },
