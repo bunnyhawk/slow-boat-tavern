@@ -1,10 +1,10 @@
 export default {
     "list": [
         {
-            "brewery": "E Nine",
-            "title": "Nefelibata, Flanders Red",
-            "size": "8 oz",
-            "price": "8"
+            "brewery": "Holy Mountain",
+            "title": "Minor Planet, Oaked Pale",
+            "size": "12 oz",
+            "price": "6"
         },
         {
             "brewery": "Holy Mountain & Chuckanut",
@@ -13,50 +13,62 @@ export default {
             "price": "6"
         },
        {
-            "brewery": "Deschutes",
-            "title": "2016 Abyss, Imperial Stout",
-            "size": "12 oz",
-            "price": "8"
-        },
-        {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
-        },
-        {
-            "brewery": "Mikkeller",
-            "title": "Spontanlemon",
-            "size": "8 oz",
-            "price": "11"
-        },
-        {
             "brewery": "Holy Mountain",
-            "title": "Covenant, Saison",
+            "title": "The OX",
             "size": "12 oz",
             "price": "6"
         },
         {
-            "brewery": "E Nine",
-            "title": "Pogo Stick, IPA",
+            "brewery": "Holy Mountain",
+            "title": "Bourbon Barrel Kings Head",
+            "size": "8 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Holy Mountain",
+            "title": "Brett Bonne Nuit",
+            "size": "12 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Holy Mountain",
+            "title": "Cathedral, Kolsch",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "Prairie",
-            "title": "Phantasmagoria, Double IPA",
-            "size": "12 oz",
-            "price": "7"
+            "brewery": "JW Lee's",
+            "title": "2015 Calvados, Harvest Ale",
+            "size": "8 oz",
+            "price": "10"
+        },
+        {
+            "brewery": "Alesmith",
+            "title": "Speedway Hammerhead Stout",
+            "size": "8 oz",
+            "price": "8"
         },
         {
             "brewery": "Rainier",
             "title": "Lager",
             "size": "12 oz",
-            "price": "2.50"
+            "price": "3"
         },
         {
-            "brewery": "Chuckanut",
-            "title": "Vienna Lager",
+            "brewery": "Block 15",
+            "title": "Stickey Hands, IPA",
+            "size": "16 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Trois Dames",
+            "title": "Foret Noir, Sour Cherry Stout",
+            "size": "8 oz",
+            "price": "8"
+        },
+        {
+            "brewery": "Cloudburst",
+            "title": "Verse,Chours,Verse, IPA",
             "size": "16 oz",
             "price": "6"
         },
@@ -65,18 +77,6 @@ export default {
             "title": "",
             "size": "",
             "price": ""
-        },
-        {
-            "brewery": "Cloudburst",
-            "title": "Wanna Get Away, IPA",
-            "size": "16 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Freigeist",
-            "title": "Mango Gose",
-            "size": "8 oz",
-            "price": "8"
         }
     ]
 }
