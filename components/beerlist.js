@@ -2,39 +2,39 @@ export default {
     "list": [
         {
             "brewery": "Holy Mountain",
-            "title": "Minor Planet, Oaked Pale",
+            "title": "Transfiguration, Saison",
             "size": "12 oz",
             "price": "6"
         },
         {
-            "brewery": "Holy Mountain & Chuckanut",
-            "title": "Oak Fermented Weizenbock",
-            "size": "12 oz",
+            "brewery": "Holy Mountain",
+            "title": "Crownless, Pale Ale",
+            "size": "16 oz",
             "price": "6"
         },
        {
-            "brewery": "Holy Mountain",
-            "title": "The OX",
-            "size": "12 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Holy Mountain",
-            "title": "Bourbon Barrel Kings Head",
-            "size": "8 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Holy Mountain",
-            "title": "Brett Bonne Nuit",
-            "size": "12 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Holy Mountain",
-            "title": "Cathedral, Kolsch",
+            "brewery": "Cloudburst",
+            "title": "A Lotta Nuthin Nuthin, Double IPA",
             "size": "16 oz",
             "price": "6"
+        },
+        {
+            "brewery": "Cloudburst",
+            "title": "Fine Print, Pale Ale",
+            "size": "16 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Barley Brown's",
+            "title": "Breakfast Stout",
+            "size": "16 oz",
+            "price": "6"
+        },
+        {
+            "brewery": "Trinity",
+            "title": "Cherry Threads, Sour",
+            "size": "8 oz",
+            "price": "8"
         },
         {
             "brewery": "JW Lee's",
@@ -43,10 +43,10 @@ export default {
             "price": "10"
         },
         {
-            "brewery": "Alesmith",
-            "title": "Speedway Hammerhead Stout",
+            "brewery": "JW Lee's",
+            "title": "2016 Port, Harvest Ale",
             "size": "8 oz",
-            "price": "8"
+            "price": "10"
         },
         {
             "brewery": "Rainier",
@@ -55,22 +55,22 @@ export default {
             "price": "3"
         },
         {
-            "brewery": "Block 15",
-            "title": "Stickey Hands, IPA",
+            "brewery": "Reissdorf",
+            "title": "Kolsch",
             "size": "16 oz",
-            "price": "6"
+            "price": "7"
+        },
+        {
+            "brewery": "De Dolle",
+            "title": "Oerbier",
+            "size": "8 oz",
+            "price": "8"
         },
         {
             "brewery": "Trois Dames",
             "title": "Foret Noir, Sour Cherry Stout",
             "size": "8 oz",
             "price": "8"
-        },
-        {
-            "brewery": "Cloudburst",
-            "title": "Verse,Chours,Verse, IPA",
-            "size": "16 oz",
-            "price": "6"
         },
         {
             "brewery": "",
