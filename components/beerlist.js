@@ -7,14 +7,14 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Holy Mountain",
-            "title": "Crownless, Pale Ale",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
        {
             "brewery": "Cloudburst",
-            "title": "A Lotta Nuthin Nuthin, Double IPA",
+            "title": "Refracting Light, IPA",
             "size": "16 oz",
             "price": "6"
         },
@@ -31,10 +31,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Trinity",
-            "title": "Cherry Threads, Sour",
+            "brewery": "Mikkeller",
+            "title": "Spontandryhop Simcoe",
             "size": "8 oz",
-            "price": "8"
+            "price": "10"
         },
         {
             "brewery": "JW Lee's",
@@ -55,10 +55,10 @@ export default {
             "price": "3"
         },
         {
-            "brewery": "Reissdorf",
-            "title": "Kolsch",
+            "brewery": "Cloudburst",
+            "title": "Hoppy Little Clouds, Pilsner",
             "size": "16 oz",
-            "price": "7"
+            "price": "6"
         },
         {
             "brewery": "De Dolle",
@@ -67,10 +67,10 @@ export default {
             "price": "8"
         },
         {
-            "brewery": "Trois Dames",
-            "title": "Foret Noir, Sour Cherry Stout",
+            "brewery": "Oud Beersel",
+            "title": "Oude Lambik",
             "size": "8 oz",
-            "price": "8"
+            "price": "11"
         },
         {
             "brewery": "",
