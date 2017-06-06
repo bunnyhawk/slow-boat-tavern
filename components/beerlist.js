@@ -2,15 +2,15 @@ export default {
     "list": [
         {
             "brewery": "Holy Mountain",
-            "title": "Transfiguration, Saison",
-            "size": "12 oz",
+            "title": "Servants Table",
+            "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Block 15",
+            "title": "Sticky Hands, Double IPA",
+            "size": "16 oz",
+            "price": "6"
         },
        {
             "brewery": "Cloudburst",
@@ -19,8 +19,8 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "Cloudburst",
-            "title": "Fine Print, Pale Ale",
+            "brewery": "Block 15",
+            "title": "DAB Lab, Bubblegum + Haze IPA",
             "size": "16 oz",
             "price": "6"
         },
@@ -37,10 +37,10 @@ export default {
             "price": "10"
         },
         {
-            "brewery": "JW Lee's",
-            "title": "2015 Calvados, Harvest Ale",
-            "size": "8 oz",
-            "price": "10"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "JW Lee's",
