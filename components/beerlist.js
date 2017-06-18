@@ -2,27 +2,27 @@ export default {
     "list": [
         {
             "brewery": "Holy Mountain",
-            "title": "Transfiguration, Saison",
-            "size": "12 oz",
+            "title": "Servants Table",
+            "size": "16 oz",
             "price": "6"
+        },
+        {
+            "brewery": "Block 15",
+            "title": "Powder to the people, IPA",
+            "size": "16 oz",
+            "price": "6"
+        },
+       {
+            "brewery": "Anchorage Brewing",
+            "title": "Nectar Honey, Saison",
+            "size": "12 oz",
+            "price": "8"
         },
         {
             "brewery": "",
             "title": "",
             "size": "",
             "price": ""
-        },
-       {
-            "brewery": "Cloudburst",
-            "title": "Refracting Light, IPA",
-            "size": "16 oz",
-            "price": "6"
-        },
-        {
-            "brewery": "Cloudburst",
-            "title": "Fine Print, Pale Ale",
-            "size": "16 oz",
-            "price": "6"
         },
         {
             "brewery": "Barley Brown's",
@@ -37,10 +37,10 @@ export default {
             "price": "10"
         },
         {
-            "brewery": "JW Lee's",
-            "title": "2015 Calvados, Harvest Ale",
-            "size": "8 oz",
-            "price": "10"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "JW Lee's",
@@ -73,10 +73,10 @@ export default {
             "price": "11"
         },
         {
-            "brewery": "",
-            "title": "",
-            "size": "",
-            "price": ""
+            "brewery": "Anchorage Brewing",
+            "title": "Nelson Sauvin, Saison",
+            "size": "12 oz",
+            "price": "8"
         }
     ]
 }
