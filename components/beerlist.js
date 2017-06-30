@@ -2,13 +2,13 @@ export default {
     "list": [
         {
             "brewery": "Holy Mountain",
-            "title": "Servants Table",
+            "title": "Mosaic, Pale Ale",
             "size": "16 oz",
             "price": "6"
         },
         {
-            "brewery": "Block 15",
-            "title": "Powder to the people, IPA",
+            "brewery": "Cloudburst",
+            "title": "Come Undone, Pale",
             "size": "16 oz",
             "price": "6"
         },
@@ -25,16 +25,16 @@ export default {
             "price": ""
         },
         {
-            "brewery": "Barley Brown's",
-            "title": "Breakfast Stout",
-            "size": "16 oz",
-            "price": "6"
+            "brewery": "Alesmith",
+            "title": "Speedway Stout",
+            "size": "12 oz",
+            "price": "7"
         },
         {
-            "brewery": "Mikkeller",
-            "title": "Spontandryhop Simcoe",
-            "size": "8 oz",
-            "price": "10"
+            "brewery": "Cloudburst",
+            "title": "Not My Favorite, IPA",
+            "size": "16 oz",
+            "price": "6"
         },
         {
             "brewery": "",
@@ -61,10 +61,10 @@ export default {
             "price": "6"
         },
         {
-            "brewery": "De Dolle",
-            "title": "Oerbier",
-            "size": "8 oz",
-            "price": "8"
+            "brewery": "",
+            "title": "",
+            "size": "",
+            "price": ""
         },
         {
             "brewery": "Oud Beersel",
