@@ -1,53 +1,58 @@
 const gulp = require('gulp');
-var eslint = require('gulp-eslint');
-var rollup = require('rollup').rollup;
-var rollupBabel = require('rollup-plugin-babel');
-var nodeResolve = require('rollup-plugin-node-resolve');
-var commonjs = require('rollup-plugin-commonjs');
-var less = require('gulp-less');
-var fileinclude = require('gulp-file-include');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var replace = require('rollup-plugin-replace');
-var connect = require('gulp-connect');
-var npmcss = require('npm-css');
+const rollup = require('rollup').rollup;
+const rollupBabel = require('rollup-plugin-babel');
+const nodeResolve = require('rollup-plugin-node-resolve');
+const commonjs = require('rollup-plugin-commonjs');
+const less = require('gulp-less');
+const fileinclude = require('gulp-file-include');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const replace = require('rollup-plugin-replace');
+const connect = require('gulp-connect');
+const npmcss = require('npm-css');
 
-var paths = {
+const paths = {
 	html: ['*.html', 'views/*.html'],
 	styles: ['components/**/*.less'],
 	scripts: ['components/*.js']
 };
 
-gulp.task('connect', function() {
-	connect.server({
+function connectServer() {
+	return connect.server({
 		root: 'app',
 		livereload: true
 	});
-});
+}
+exports.connectServer = connectServer;
 
-gulp.task('fileinclude', function() {
-	gulp.src(['*.html'])
+function includeFiles() {
+	return gulp.src(['*.html'])
 		.pipe(fileinclude({
 			prefix: '@@',
 			basepath: '@file'
 		}))
 		.pipe(gulp.dest('./app'));
-});
+}
+exports.includeFiles = includeFiles;
 
-gulp.task('html', function () {
-	gulp.src('*.html')
+function loadHtml() {
+	return gulp.src('*.html')
 		.pipe(connect.reload());
-});
+}
+exports.loadHtml = loadHtml;
 
-gulp.task('build-less', function(){
+exports.html = gulp.series(includeFiles, loadHtml);
+
+function buildCSS() {
 	return gulp.src(paths.styles)
 		.pipe(less())
 		.pipe(concat('app.css'))
 		.pipe(gulp.dest('app/stylesheets'))
 		.pipe(connect.reload());
-});
+}
+exports.buildCSS = buildCSS;
 
-gulp.task('scripts', function() {
+function buildJS() {
 	return rollup({
 		entry: "components/app.js",
 		plugins: [
@@ -67,16 +72,25 @@ gulp.task('scripts', function() {
 	}).then(function() {
 		return connect.reload()
 	});
-});
+}
+exports.buildJS = buildJS;
 
 // Rerun the task when a file changes
-gulp.task('watch', function() {
-	gulp.watch(paths.html, ['html', 'fileinclude']);
-	gulp.watch(paths.styles, ['build-less']);
-	gulp.watch(paths.scripts, ['scripts']);
-});
+function watch(done) {
+	gulp.watch(paths.html, html);
+	gulp.watch(paths.styles, buildCSS);
+	gulp.watch(paths.scripts, buildJS);
+	done();
+}
+exports.watch = watch;
 
-gulp.task('build', ['fileinclude', 'build-less', 'scripts']);
+exports.build = gulp.series(includeFiles, buildCSS, buildJS);
 
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['fileinclude', 'connect', 'build-less', 'scripts', 'watch']);
+exports.default = gulp.series(
+	exports.includeFiles,
+	exports.connectServer,
+	exports.buildCSS,
+	exports.buildJS,
+	exports.watch
+);
