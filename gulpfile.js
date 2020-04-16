@@ -6,10 +6,8 @@ const commonjs = require('rollup-plugin-commonjs');
 const less = require('gulp-less');
 const fileinclude = require('gulp-file-include');
 const concat = require('gulp-concat');
-const uglify = require('gulp-uglify');
-const replace = require('rollup-plugin-replace');
 const connect = require('gulp-connect');
-const npmcss = require('npm-css');
+
 
 const paths = {
 	html: ['*.html', 'views/*.html'],
@@ -62,7 +60,6 @@ function buildJS() {
 			commonjs(),
 			rollupBabel({
 				exclude: 'node_modules/**',
-				presets: ['es2015-rollup'],
 			}),
 		]	
 	}).then(function(bundle) {
